@@ -37,7 +37,7 @@ public class RestAssuredTest {
 		 System.out.println("Status line is "+statusLine);
 		 Assert.assertEquals(statusLine /*actual value*/, "HTTP/1.1 200 OK" /*expected value*/, "Correct status code returned");
 		
-		
+		 System.out.println("Test is completed");
 
 	}
 
